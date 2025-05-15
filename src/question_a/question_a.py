@@ -30,5 +30,3 @@ def stock_purchase_history():
     print("\nSymbol\tCompany Name")
     for symbol, stock in stock_dict.items():
         print(f"{symbol}\t{stock.get_company_name()}")
-
-
